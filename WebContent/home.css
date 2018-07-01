@@ -1,0 +1,34 @@
+/*
+/* Created by Steve Striley
+ * This is the layout for the resume home page
+ */
+/*
+ * General styles
+ */
+ 
+.body, html{
+    height: 100%;
+ 	background-repeat: no-repeat;
+ 	background-color: lightblue;
+	color: black;
+}
+
+.steveImg {
+	text-align: center;
+	border-radius: 50%;
+}
+
+.links {
+	text-align: center;
+}
+
+.agileManifesto {
+	text-align: center;
+}
+
+.button {
+	position: absolute;
+	display: box-sizing;
+	float: bottom;
+	margin-bottom: 0px;
+}
