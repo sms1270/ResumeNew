@@ -1,0 +1,57 @@
+/*
+/* Created by Steve Striley
+ * This is the layout for the hobby page
+ */
+/*
+ * General styles
+ */
+ 
+.body {
+	background-color: lightblue;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+.travel {
+	display: inline-block;
+	margin-left: 350px;
+	margin-right: 100px;
+	margin-top: 100px;
+	position: relative;
+}
+
+.travel img {
+	height: 100px;
+	width: 100px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.bicycling {
+	display: inline-block;
+	margin-left: 350px;
+	margin-right: 100px;
+	position: relative;
+}
+
+.bicycling img {
+	height: 100px;
+	width: 100px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.flash {
+   animation-name: flash;
+    animation-duration: 0.2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+
+@keyframes flash {
+    from {color: red;}
+    to {color: black;}
+}
